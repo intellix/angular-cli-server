@@ -1,0 +1,82 @@
+Arguments: 
+  /Users/dominicwatson/.nvm/versions/node/v7.1.0/bin/node /Users/dominicwatson/.nvm/versions/node/v7.1.0/bin/yarn add @angular/server
+
+PATH: 
+  /Users/dominicwatson/.nvm/versions/node/v7.1.0/bin:/Users/dominicwatson/Downloads/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin
+
+Yarn version: 
+  0.20.0
+
+Node version: 
+  7.1.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "angular-cli-server",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^4.0.0",
+      "@angular/compiler": "^4.0.0",
+      "@angular/core": "^4.0.0",
+      "@angular/forms": "^4.0.0",
+      "@angular/http": "^4.0.0",
+      "@angular/platform-browser": "^4.0.0",
+      "@angular/platform-browser-dynamic": "^4.0.0",
+      "@angular/router": "^4.0.0",
+      "core-js": "^2.4.1",
+      "rxjs": "^5.1.0",
+      "zone.js": "^0.8.4"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.0.0",
+      "@angular/compiler-cli": "^4.0.0",
+      "@types/jasmine": "2.5.38",
+      "@types/node": "~6.0.60",
+      "codelyzer": "~2.0.0",
+      "jasmine-core": "~2.5.2",
+      "jasmine-spec-reporter": "~3.2.0",
+      "karma": "~1.4.1",
+      "karma-chrome-launcher": "~2.0.0",
+      "karma-cli": "~1.0.1",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "karma-coverage-istanbul-reporter": "^0.2.0",
+      "protractor": "~5.1.0",
+      "ts-node": "~2.0.0",
+      "tslint": "~4.5.0",
+      "typescript": "~2.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@angular%2fserver: Not found
+      at Request.params.callback [as _callback] (/Users/dominicwatson/.nvm/versions/node/v7.1.0/lib/node_modules/yarn/lib/util/request-manager.js:313:18)
+      at Request.self.callback (/Users/dominicwatson/.nvm/versions/node/v7.1.0/lib/node_modules/yarn/node_modules/request/request.js:186:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (/Users/dominicwatson/.nvm/versions/node/v7.1.0/lib/node_modules/yarn/node_modules/request/request.js:1081:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at IncomingMessage.<anonymous> (/Users/dominicwatson/.nvm/versions/node/v7.1.0/lib/node_modules/yarn/node_modules/request/request.js:1001:12)
+      at IncomingMessage.g (events.js:292:16)
+      at emitNone (events.js:91:20)
+      at IncomingMessage.emit (events.js:185:7)
