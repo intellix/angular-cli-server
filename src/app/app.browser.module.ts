@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule.withServerTransition({
-      appId: 'app-root-server',
+      appId: 'angular-cli-server',
     }),
     FormsModule,
     HttpModule
